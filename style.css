@@ -19,6 +19,23 @@
     width: 100%;
 }
 
+.logo {
+    position: absolute;
+    top: 115px;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 120px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
 .credit {
     position: absolute;
     bottom: 0;
@@ -119,4 +136,6 @@ label {
 
 input {
     width: 75%;
+    border: 1px solid lightgray;
+    opacity: 0.5;
 }
