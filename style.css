@@ -2,13 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
-div img {
-    height: 100%;
-    width: 40%;
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 35%;
     position: relative;
+}
+
+.sidebar img {
+    height: 100%;
+    width: 100%;
 }
 
 .credit {
@@ -20,4 +28,8 @@ div img {
 
 a {
     color: white;
+}
+
+p {
+    flex: 1;
 }
