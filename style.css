@@ -86,3 +86,8 @@ input:invalid {
     margin-top: 15px;
     margin-left: 40px;
 }
+
+.form h3 {
+    margin-left: 40px;
+    margin-top: 20px;
+}
