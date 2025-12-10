@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norse-Bold.woff2")
+        url("fonts/Norse-Bold.woff");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -29,6 +35,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo div {
+    font-family: "Norse";
+    font-size: 100px;
+    margin-top: 20px;
 }
 
 .logo img {
