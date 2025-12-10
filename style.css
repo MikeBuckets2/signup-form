@@ -65,3 +65,14 @@ input:invalid {
 .bottom-section {
     height: 33%;
 }
+
+.first-head {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 55ch;
+}
+
+.second-head {
+    margin-top: 15px;
+    margin-left: 40px;
+}
