@@ -47,6 +47,10 @@ span {
 }
 
 input:focus {
-    border: blue;
+    border: 1px solid blue;
     box-shadow: 0px 2px 8px rgb(0, 0, 0);
+}
+
+input:invalid {
+    border: 1px solid red;
 }
