@@ -91,3 +91,29 @@ input:invalid {
     margin-left: 40px;
     margin-top: 20px;
 }
+
+.name, 
+.contact, 
+.password {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 300px;
+}
+
+.name {
+    display: flex;
+}
+
+label {
+    display: block;
+    font-size: 0.75rem;
+}
+
+.name-group, 
+.contact-group {
+    flex: 1;
+}
+
+input {
+    width: 75%;
+}
