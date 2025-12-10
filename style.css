@@ -36,3 +36,8 @@ a {
     flex-direction: column;
     justify-content: center;
 }
+
+button {
+    background-color: rgb(139, 128, 0);
+    color: white;
+}
