@@ -101,7 +101,8 @@ input:invalid {
 }
 
 .name, 
-.contact {
+.contact, 
+.password {
     display: flex;
 }
 
@@ -111,7 +112,8 @@ label {
 }
 
 .name-group, 
-.contact-group {
+.contact-group, 
+.password-group {
     flex: 1;
 }
 
