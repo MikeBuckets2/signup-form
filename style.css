@@ -100,7 +100,8 @@ input:invalid {
     margin-right: 300px;
 }
 
-.name {
+.name, 
+.contact {
     display: flex;
 }
 
